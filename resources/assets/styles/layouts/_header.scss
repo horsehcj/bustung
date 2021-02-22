@@ -18,6 +18,11 @@
     a {
       color: white;
       margin-right: 24px;
+      transition: color 0.2s ease-in-out;
+
+      &:hover {
+        color: #6250d1;
+      }
     }
 
     .menu-item-language {
