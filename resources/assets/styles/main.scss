@@ -1,4 +1,5 @@
 @import "common/variables";
+@import "~slick-carousel/slick/slick.scss";
 
 /** Import everything from autoload */
 @import "./autoload/**/*";
@@ -14,12 +15,9 @@
 /** Import theme styles */
 @import "common/global";
 @import "components/buttons";
-@import "components/comments";
-@import "components/forms";
 @import "components/wp-classes";
 @import "layouts/header";
-@import "layouts/sidebar";
 @import "layouts/footer";
 @import "layouts/pages";
-@import "layouts/posts";
 @import "layouts/tinymce";
+@import "modules/module-text";

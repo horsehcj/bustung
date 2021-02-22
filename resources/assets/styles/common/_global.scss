@@ -1,5 +1,35 @@
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
 a {
   &:hover {
     text-decoration: none;
   }
+}
+
+.clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  line-height: 2.75rem;
+  margin-bottom: 1.2rem;
+}
+
+p {
+  line-height: 1.8;
+}
+
+.brand-primary {
+  color: #6250d1;
 }

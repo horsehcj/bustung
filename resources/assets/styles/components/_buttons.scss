@@ -1,0 +1,19 @@
+.btn-primary {
+  padding: 10px 40px;
+  border: 1px solid black;
+  border-radius: 26px;
+  transition: border-color 0.3s ease-in-out;
+  background-color: transparent;
+  color: black;
+  display: inline-block;
+
+  &:hover {
+    color: #6250d1;
+    border-color: #6250d1;
+    background-color: transparent;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

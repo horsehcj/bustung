@@ -1,0 +1,12 @@
+.module-text {
+  .module-text-content {
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+    p {
+      &:last-of-type {
+        margin-bottom: 32px;
+      }
+    }
+  }
+}

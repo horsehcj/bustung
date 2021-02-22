@@ -1,8 +1,11 @@
 .home {
   .index-hero-section {
     background-size: cover;
-    height: 90vh;
     position: relative;
+    height: 85vh;
+    min-height: 480px;
+    background-attachment: fixed;
+    padding-top: 120px;
 
     &::before {
       content: "";
@@ -12,6 +15,59 @@
       top: 0;
       left: 0;
       background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .index-hero-slider-container {
+      position: relative;
+      overflow: hidden;
+      flex: 0 0 45%;
+
+      .index-hero-slide {
+        color: white;
+        margin-top: 40px;
+      }
+    }
+
+    .index-hero-image-slider-container {
+      flex: 0 0 44%;
+      position: relative;
+      height: 85vh;
+      min-height: 480px;
+      padding-left: 60px;
+    }
+
+    .slick-dots {
+      display: flex;
+      list-style-type: none;
+      padding-left: 0;
+      width: 45%;
+      margin: 50px 0 80px;
+
+      li {
+        flex: 1 1 auto;
+        margin-right: 16px;
+
+        button {
+          height: 5px;
+          border-radius: 4px;
+          background-color: rgba(255, 255, 255, 0.3);
+          border: 0;
+          color: transparent;
+          display: block;
+          font-size: 0;
+          line-height: 0;
+          outline: none;
+          padding: 0;
+          width: 100%;
+          transition: background-color 0.2s ease-in-out;
+        }
+
+        &.slick-active {
+          button {
+            background-color: rgba(255, 255, 255, 0.8);
+          }
+        }
+      }
     }
   }
 }
