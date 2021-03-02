@@ -17,14 +17,28 @@ export default {
     })
 
     new Swiper('.swiper-container', {
-      direction: 'vertical',
       loop: true,
       pagination: {
         el: '.swiper-pagination',
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        type: 'custom',
+        renderCustom: function (swiper, current, total) {
+          let names = [];
+          let slides = document.getElementsByClassName("swiper-slide");
+          for (let i = 0; i < slides.length; i++) {
+            names.push(slides[i].getAttribute('data-paginationname'));
+          }
+  
+          let text = "<div class='slider-pagination'>";
+          for (let i = 1; i <= total; i++) {
+            if (current == i) {
+              text += "<span style='border-color: #6250d1; color: #6250d1;'>" + names[i] + "</span>";
+            } else {
+              text += "<span>" + names[i] + "</span>";
+            }
+          }
+          text += "</div>";
+          return text;
+        },
       },
     });
   },

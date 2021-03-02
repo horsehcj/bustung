@@ -45,15 +45,48 @@
     </section>
 
     <section class="index-services-section">
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
+      <div class="container">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" data-paginationname="過境巴士服務">
+              <div class="slide-container d-flex">
+                <div class="slide-image">
+                  <img src="@asset('images/hero_slide-1.jpg')">
+                </div>
+                <div class="slide-content">
+                  <h3>過境巴士服務</h3>
+                  <p>日租 $2,800 起</p>
+                  <p>我們的60座大巴提供各種大巴租賃服務，包括機場接送服務，婚車服務和包車租賃服務。 我們公司重視客戶體驗，提供寬敞的機艙，舒適的座椅和完善的空調設備，並提供令人愉悅的體驗，同時滿足環保標準。</p>
+                  <a href="#" class="bt-button">了解更多</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" data-paginationname="婚禮花車">Slide 2</div>
+            <div class="swiper-slide" data-paginationname="屋苑穿梭">Slide 3</div>
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <section class="index-services-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-4">
+            <img src="@asset('images/hero_slide-1.jpg')">
+          </div>
+          <div class="col-sm-4">
+            <label class="brand-primary">我們的願景</label>
+            <h4>定期維修保養</h4>
+            <p>為保障客戶安全，減低意外風險，定期檢查是最基本的要求。巴士通旗下所有商用車輛均會接受登記前檢驗，以及最少每年為所有車輛進行定期檢查，並購買保險，以確保車輛安全並適合在路上行駛。</p>
+
+            <h4>24小時客戶服務熱線</h4>
+            <p>閣下可透過電郵、傳真或電話聯繫我們。巴士通的客戶電話提供全天候24小時的諮詢熱線服務。無論您是想查詢我們的巴士服務，還是想了解更多報價資料，歡迎您隨時聯絡我們，我們將竭力為您提供即時、到位的解答。</p>
+
+            <h4>零手續費和預訂費</h4>
+            <p>巴士通向來以卓越服務在業界贏得良好信譽。為提供更方便貼心的顧客體驗，閣下在租車期間無需繳付任何手續費和預訂費，流程簡單。如需取消預約只需提前3日通知，本公司將不會收取任何行政費用。</p>
+          </div>
+        </div>
       </div>
     </section>
     @include('partials.content-page')
