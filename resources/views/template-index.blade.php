@@ -46,37 +46,44 @@
 
     <section class="index-services-section">
       <div class="container">
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide" data-paginationname="過境巴士服務">
-              <div class="slide-container d-flex">
-                <div class="slide-image">
-                  <img src="@asset('images/hero_slide-1.jpg')">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide" data-paginationname="過境巴士服務">
+                  <div class="slide-container d-flex">
+                    <div class="slide-image">
+                      <img src="@asset('images/hero_slide-1.jpg')">
+                    </div>
+                    <div class="slide-content">
+                      <h3>過境巴士服務</h3>
+                      <p class="brand-primary">日租 $2,800 起</p>
+                      <p>我們的60座大巴提供各種大巴租賃服務，包括機場接送服務，婚車服務和包車租賃服務。 我們公司重視客戶體驗，提供寬敞的機艙，舒適的座椅和完善的空調設備，並提供令人愉悅的體驗，同時滿足環保標準。</p>
+                    </div>
+                  </div>
                 </div>
-                <div class="slide-content">
-                  <h3>過境巴士服務</h3>
-                  <p>日租 $2,800 起</p>
-                  <p>我們的60座大巴提供各種大巴租賃服務，包括機場接送服務，婚車服務和包車租賃服務。 我們公司重視客戶體驗，提供寬敞的機艙，舒適的座椅和完善的空調設備，並提供令人愉悅的體驗，同時滿足環保標準。</p>
-                  <a href="#" class="bt-button">了解更多</a>
-                </div>
+                <div class="swiper-slide" data-paginationname="婚禮花車">Slide 2</div>
+                <div class="swiper-slide" data-paginationname="屋苑穿梭">Slide 3</div>
+                <div class="swiper-slide" data-paginationname="點對點接送">Slide 3</div>
+                <div class="swiper-slide" data-paginationname="機場接送">Slide 3</div>
+                <div class="swiper-slide" data-paginationname="校車接送">Slide 3</div>
+                <div class="swiper-slide" data-paginationname="遊客觀光">Slide 3</div>
+                <div class="swiper-slide" data-paginationname="商務租車">Slide 3</div>
               </div>
+              <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-slide" data-paginationname="婚禮花車">Slide 2</div>
-            <div class="swiper-slide" data-paginationname="屋苑穿梭">Slide 3</div>
           </div>
-          <div class="swiper-pagination"></div>
         </div>
       </div>
     </section>
 
-    <section class="index-services-section">
+    <section class="index-wills-section">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-sm-4">
             <img src="@asset('images/hero_slide-1.jpg')">
           </div>
           <div class="col-sm-4">
-            <label class="brand-primary">我們的願景</label>
             <h4>定期維修保養</h4>
             <p>為保障客戶安全，減低意外風險，定期檢查是最基本的要求。巴士通旗下所有商用車輛均會接受登記前檢驗，以及最少每年為所有車輛進行定期檢查，並購買保險，以確保車輛安全並適合在路上行駛。</p>
 
@@ -89,6 +96,5 @@
         </div>
       </div>
     </section>
-    @include('partials.content-page')
   @endwhile
 @endsection

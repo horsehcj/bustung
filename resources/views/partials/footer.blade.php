@@ -1,5 +1,26 @@
-<footer class="content-info">
+<footer class="footer-info">
   <div class="container">
-    @php dynamic_sidebar('sidebar-footer') @endphp
+    <div class="row">
+      <div class="col-12">
+        <img class="footer-logo" src="@asset('images/bustung_logo.png')">
+      </div>
+
+      <div class="col-sm-6">
+        <p>電話：<a href="tel:2330 2990">2330 2990</a></p>
+        <p>電話：<a href="https://api.whatsapp.com/send?phone=94984445">9498 4445</a> (Whatsapp)</p>
+        <p>地址：九龍紅磡馬頭圍道37號紅磡商業中心B座5樓508室</p>
+      </div>
+
+      <div class="col-sm-6">
+        <form>
+          <div class="field-group">
+            <label>電話</label>
+            <input type="text" name="phone" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <p class="copyright">© 2021 BusTung Limited 巴士通有限公司。 版權所有</p>
   </div>
 </footer>

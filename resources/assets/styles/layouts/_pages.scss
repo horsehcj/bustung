@@ -71,8 +71,24 @@
     }
   }
 
+  .index-intro-section {
+    margin-top: 80px;
+  }
+
   .index-services-section {
     margin-bottom: 100px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #333;
+      width: 100%;
+      left: 0;
+      height: 50%;
+    }
 
     .swiper-container {
       width: 100%;
@@ -87,6 +103,8 @@
           height: 100%;
           border-radius: 12px;
           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+          background-color: white;
+          overflow: hidden;
 
           .slide-image,
           .slide-content {
@@ -121,7 +139,7 @@
           span {
             cursor: pointer;
             border-bottom: 1px solid transparent;
-            margin: 0 8px;
+            margin: 0 12px;
             padding: 8px 0;
           }
         }
