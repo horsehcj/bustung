@@ -12,12 +12,7 @@
       </div>
 
       <div class="col-sm-6">
-        <form>
-          <div class="field-group">
-            <label>電話</label>
-            <input type="text" name="phone" />
-          </div>
-        </form>
+      <?php echo do_shortcode( '[contact-form-7 id="3585" title="Contact form 1"]' ); ?>
       </div>
     </div>
 

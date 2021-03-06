@@ -3,6 +3,17 @@ export default {
     // JavaScript to be fired on all pages
   },
   finalize() {
-    // JavaScript to be fired on all pages, after page specific JS is fired
+    function updateHeaderState() {
+      if ( $(window).scrollTop() > 100) {
+        $('body').addClass('scrolled')
+      } else {
+        $('body').removeClass('scrolled')
+      }
+    }
+
+    updateHeaderState();
+    $(window).on('scroll', function() {
+      updateHeaderState();
+    })
   },
 };

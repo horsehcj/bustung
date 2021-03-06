@@ -3,11 +3,13 @@
   width: 100%;
   top: 0;
   left: 0;
-  padding: 30px 0 0;
+  padding: 30px 0;
   z-index: 3;
+  transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out;
 
   .logo {
     width: 250px;
+    transition: width 0.3s ease-in-out;
 
     img {
       max-width: 100%;
@@ -15,27 +17,35 @@
   }
 
   .nav {
-    a {
-      color: white;
-      margin-right: 24px;
-      transition: color 0.2s ease-in-out;
-
-      &:hover {
-        color: #6250d1;
+    & > li {
+      & > a {
+        display: none;
       }
-    }
-
-    .menu-item-language {
-      display: flex;
 
       ul {
         list-style-type: none;
         padding-left: 0;
 
         a {
-          margin-right: 0;
+          color: white;
+          transition: color 0.2s ease-in-out;
+
+          &:hover {
+            color: #6250d1;
+          }
         }
       }
+    }
+  }
+}
+
+.scrolled {
+  .header {
+    padding: 18px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    .logo {
+      width: 200px;
     }
   }
 }
