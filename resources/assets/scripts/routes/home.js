@@ -16,7 +16,7 @@ export default {
       fade: true,
     })
 
-    new Swiper('.swiper-container', {
+    const servicesSwiper = new Swiper('.swiper-container', {
       loop: true,
       pagination: {
         el: '.swiper-pagination',
@@ -31,9 +31,9 @@ export default {
           let text = "<div class='slider-pagination'>";
           for (let i = 1; i <= total; i++) {
             if (current == i) {
-              text += "<span style='border-color: #6250d1; color: #6250d1;'>" + names[i] + "</span>";
+              text += "<span data-slide='" + i + "' style='border-color: #6250d1; color: #6250d1;'>" + names[i] + "</span>";
             } else {
-              text += "<span>" + names[i] + "</span>";
+              text += "<span data-slide='" + i + "'>" + names[i] + "</span>";
             }
           }
           text += "</div>";
@@ -41,5 +41,10 @@ export default {
         },
       },
     });
+
+    $('body').on('click', '.slider-pagination span', function() {
+      console.log("click");
+      servicesSwiper.slideTo($(this).data('slide'), 500, false);
+    })
   },
 };
