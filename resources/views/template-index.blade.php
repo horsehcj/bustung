@@ -50,102 +50,26 @@
           <div class="col-10">
             <div class="swiper-container">
               <div class="swiper-wrapper">
-                <div class="swiper-slide" data-paginationname="過境巴士服務">
-                  <div class="slide-container d-flex">
-                    <div class="slide-image">
-                      <img src="@asset('images/hero_slide-1.jpg')">
-                    </div>
-                    <div class="slide-content">
-                      <h3>過境巴士服務</h3>
-                      <p class="brand-primary">日租 $2,800 起</p>
-                      <p>我們的60座大巴提供各種大巴租賃服務，包括機場接送服務，婚車服務和包車租賃服務。 我們公司重視客戶體驗，提供寬敞的機艙，舒適的座椅和完善的空調設備，並提供令人愉悅的體驗，同時滿足環保標準。</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide" data-paginationname="婚禮花車">
-                  <div class="slide-container d-flex">
-                    <div class="slide-image">
-                      <img src="@asset('images/hero_slide-1.jpg')">
-                    </div>
-                    <div class="slide-content">
-                      <h3>過境巴士服務</h3>
-                      <p class="brand-primary">日租 $2,800 起</p>
-                      <p>我們的60座大巴提供各種大巴租賃服務，包括機場接送服務，婚車服務和包車租賃服務。 我們公司重視客戶體驗，提供寬敞的機艙，舒適的座椅和完善的空調設備，並提供令人愉悅的體驗，同時滿足環保標準。</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide" data-paginationname="屋苑穿梭">
-                  <div class="slide-container d-flex">
-                    <div class="slide-image">
-                      <img src="@asset('images/hero_slide-1.jpg')">
-                    </div>
-                    <div class="slide-content">
-                      <h3>過境巴士服務</h3>
-                      <p class="brand-primary">日租 $2,800 起</p>
-                      <p>我們的60座大巴提供各種大巴租賃服務，包括機場接送服務，婚車服務和包車租賃服務。 我們公司重視客戶體驗，提供寬敞的機艙，舒適的座椅和完善的空調設備，並提供令人愉悅的體驗，同時滿足環保標準。</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide" data-paginationname="點對點接送">
-                  <div class="slide-container d-flex">
-                    <div class="slide-image">
-                      <img src="@asset('images/hero_slide-1.jpg')">
-                    </div>
-                    <div class="slide-content">
-                      <h3>過境巴士服務</h3>
-                      <p class="brand-primary">日租 $2,800 起</p>
-                      <p>我們的60座大巴提供各種大巴租賃服務，包括機場接送服務，婚車服務和包車租賃服務。 我們公司重視客戶體驗，提供寬敞的機艙，舒適的座椅和完善的空調設備，並提供令人愉悅的體驗，同時滿足環保標準。</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide" data-paginationname="機場接送">
-                  <div class="slide-container d-flex">
-                    <div class="slide-image">
-                      <img src="@asset('images/hero_slide-1.jpg')">
-                    </div>
-                    <div class="slide-content">
-                      <h3>過境巴士服務</h3>
-                      <p class="brand-primary">日租 $2,800 起</p>
-                      <p>我們的60座大巴提供各種大巴租賃服務，包括機場接送服務，婚車服務和包車租賃服務。 我們公司重視客戶體驗，提供寬敞的機艙，舒適的座椅和完善的空調設備，並提供令人愉悅的體驗，同時滿足環保標準。</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide" data-paginationname="校車接送">
-                  <div class="slide-container d-flex">
-                    <div class="slide-image">
-                      <img src="@asset('images/hero_slide-1.jpg')">
-                    </div>
-                    <div class="slide-content">
-                      <h3>過境巴士服務</h3>
-                      <p class="brand-primary">日租 $2,800 起</p>
-                      <p>我們的60座大巴提供各種大巴租賃服務，包括機場接送服務，婚車服務和包車租賃服務。 我們公司重視客戶體驗，提供寬敞的機艙，舒適的座椅和完善的空調設備，並提供令人愉悅的體驗，同時滿足環保標準。</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide" data-paginationname="遊客觀光">
-                  <div class="slide-container d-flex">
-                    <div class="slide-image">
-                      <img src="@asset('images/hero_slide-1.jpg')">
-                    </div>
-                    <div class="slide-content">
-                      <h3>過境巴士服務</h3>
-                      <p class="brand-primary">日租 $2,800 起</p>
-                      <p>我們的60座大巴提供各種大巴租賃服務，包括機場接送服務，婚車服務和包車租賃服務。 我們公司重視客戶體驗，提供寬敞的機艙，舒適的座椅和完善的空調設備，並提供令人愉悅的體驗，同時滿足環保標準。</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide" data-paginationname="商務租車">
-                  <div class="slide-container d-flex">
-                    <div class="slide-image">
-                      <img src="@asset('images/hero_slide-1.jpg')">
-                    </div>
-                    <div class="slide-content">
-                      <h3>過境巴士服務</h3>
-                      <p class="brand-primary">日租 $2,800 起</p>
-                      <p>我們的60座大巴提供各種大巴租賃服務，包括機場接送服務，婚車服務和包車租賃服務。 我們公司重視客戶體驗，提供寬敞的機艙，舒適的座椅和完善的空調設備，並提供令人愉悅的體驗，同時滿足環保標準。</p>
-                    </div>
-                  </div>
-                </div>
+                <?php
+                  $services = get_field('services');
+
+                  foreach ($services as $service) {
+                    ?>
+                      <div class="swiper-slide" data-paginationname="<?php echo $service['title']; ?>">
+                        <div class="slide-container d-flex">
+                          <div class="slide-image">
+                            <img src="@asset('images/hero_slide-1.jpg')">
+                          </div>
+                          <div class="slide-content">
+                            <h3><?php echo $service['title']; ?></h3>
+                            <p class="brand-primary">日租 $2,800 起</p>
+                            <p>我們的60座大巴提供各種大巴租賃服務，包括機場接送服務，婚車服務和包車租賃服務。 我們公司重視客戶體驗，提供寬敞的機艙，舒適的座椅和完善的空調設備，並提供令人愉悅的體驗，同時滿足環保標準。</p>
+                          </div>
+                        </div>
+                      </div>
+                    <?php
+                  }
+                ?>
               </div>
               <div class="swiper-pagination"></div>
             </div>
