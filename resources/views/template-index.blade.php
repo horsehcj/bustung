@@ -62,8 +62,10 @@
                           </div>
                           <div class="slide-content">
                             <h3><?php echo $service['title']; ?></h3>
-                            <p class="brand-primary">日租 $2,800 起</p>
-                            <p>我們的60座大巴提供各種大巴租賃服務，包括機場接送服務，婚車服務和包車租賃服務。 我們公司重視客戶體驗，提供寬敞的機艙，舒適的座椅和完善的空調設備，並提供令人愉悅的體驗，同時滿足環保標準。</p>
+                            <?php if ($service['price']) {
+                              echo "<p class='brand-primary'>". $service['price'] ."</p>";
+                            } ?>
+                            <p><?php echo $service['description']; ?></p>
                           </div>
                         </div>
                       </div>
