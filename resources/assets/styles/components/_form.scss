@@ -1,0 +1,77 @@
+.wpcf7-form {
+  input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+
+    &:focus {
+      outline: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    }
+
+    &[type="submit"] {
+      padding: 10px 40px;
+      border: 1px solid black;
+      border-radius: 26px;
+      transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+      background-color: transparent;
+      color: black;
+      display: inline-block;
+
+      &:hover {
+        color: #6250d1;
+        border-color: #6250d1;
+        background-color: transparent;
+      }
+    }
+  }
+
+  textarea {
+    background-color: transparent;
+    border: none;
+    resize: none;
+  }
+}
+
+.footer-info {
+  .wpcf7-form {
+    label {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    input {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+      color: white;
+      width: 100%;
+
+      &:focus {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+      }
+
+      &[type="submit"] {
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        color: rgba(255, 255, 255, 0.6);
+        width: auto;
+
+        &:hover {
+          color: rgba(255, 255, 255, 1);
+          border-color: rgba(255, 255, 255, 1);
+        }
+      }
+    }
+
+    textarea {
+      width: 100%;
+      margin-top: 10px;
+      height: 100px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+      color: white;
+
+      &:focus {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+        outline: none;
+      }
+    }
+  }
+}
