@@ -14,6 +14,17 @@ export default {
     updateHeaderState();
     $(window).on('scroll', function() {
       updateHeaderState();
+    });
+
+    $('.menu-item').on('click', function(e) {
+      e.preventDefault();
+
+      if (!$(this).hasClass('.menu-item-language')) {
+        let anchor = $.attr($(this).find('a'), 'href')
+        $('html, body').animate({
+          scrollTop: $(anchor).offset().top
+        }, 500);
+      }
     })
   },
 };

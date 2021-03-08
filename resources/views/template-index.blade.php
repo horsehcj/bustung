@@ -56,7 +56,7 @@
                   foreach ($services as $service) {
                     ?>
                       <div class="swiper-slide" data-paginationname="<?php echo $service['title']; ?>">
-                        <div class="slide-container d-flex flex-column flex-md-row">
+                        <div class="slide-container d-flex flex-column flex-lg-row">
                           <div class="slide-image">
                             <img src="@asset('images/hero_slide-1.jpg')">
                           </div>
@@ -109,7 +109,7 @@
           </div>
 
           <div class="col-sm-7 col-md-5">
-            <h3>零手續費和預訂費</h3>
+            <h3>零手續費及沒有隱藏收費</h3>
             <p>巴士通向來以卓越服務在業界贏得良好信譽。為提供更方便貼心的顧客體驗，閣下在租車期間無需繳付任何手續費和預訂費，流程簡單。如需取消預約只需提前3日通知，本公司將不會收取任何行政費用。</p>
           </div>
         </div>
