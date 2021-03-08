@@ -47,7 +47,7 @@
     <section id="services" class="index-services-section">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-10">
+          <div class="col-md-10">
             <div class="swiper-container">
               <div class="swiper-wrapper">
                 <?php
@@ -56,7 +56,7 @@
                   foreach ($services as $service) {
                     ?>
                       <div class="swiper-slide" data-paginationname="<?php echo $service['title']; ?>">
-                        <div class="slide-container d-flex">
+                        <div class="slide-container d-flex flex-column flex-md-row">
                           <div class="slide-image">
                             <img src="@asset('images/hero_slide-1.jpg')">
                           </div>

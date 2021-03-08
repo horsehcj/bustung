@@ -22,6 +22,10 @@
       overflow: hidden;
       flex: 0 0 45%;
 
+      @include media-breakpoint-down(md) {
+        flex: 0 0 100%;
+      }
+
       .index-hero-slide {
         color: white;
         margin-top: 40px;
@@ -151,8 +155,16 @@
     .service {
       margin-bottom: 60px;
 
+      @include media-breakpoint-down(md) {
+        margin-bottom: 20px;
+      }
+
       .service-icon-container {
         text-align: center;
+
+        @include media-breakpoint-down(md) {
+          margin-bottom: 40px;
+        }
 
         .service-icon {
           width: 100%;
