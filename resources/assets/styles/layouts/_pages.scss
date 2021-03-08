@@ -149,14 +149,15 @@
 
   .index-wills-section {
     .service {
-      .service-icon {
+      .service-icon-container {
         text-align: center;
 
-        img {
+        .service-icon {
           width: 100%;
           max-width: 200px;
         }
       }
+
       &:nth-child(2) {
         .service-icon {
           order: 2;

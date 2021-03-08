@@ -83,8 +83,8 @@
     <section class="index-wills-section">
       <div class="container">
         <div class="row justify-content-center service">
-          <div class="col-sm-4 service-icon">
-            <img src="@asset('images/service-icon-repair.png')">
+          <div class="col-sm-4 service-icon-container">
+            <img class="service-icon" src="@asset('images/service-icon-repair.png')">
           </div>
           <div class="col-sm-5">
             <h4>定期維修保養</h4>
@@ -93,8 +93,8 @@
         </div>
 
         <div class="row justify-content-center service">
-          <div class="col-sm-4 service-icon">
-            <img src="@asset('images/service-icon-cs.png')">
+          <div class="col-sm-4 service-icon-container">
+            <img class="service-icon" src="@asset('images/service-icon-cs.png')">
           </div>
 
           <div class="col-sm-5">
@@ -104,8 +104,8 @@
         </div>
 
         <div class="row justify-content-center service">
-          <div class="col-sm-4 service-icon">
-            <img src="@asset('images/service-icon-money.png')">
+          <div class="col-sm-4 service-icon-container">
+            <img class="service-icon" src="@asset('images/service-icon-money.png')">
           </div>
 
           <div class="col-sm-5">
