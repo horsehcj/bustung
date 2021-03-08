@@ -29,8 +29,26 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<section class="single-product-hero-section">
 			<?php
 				$post_thumbnail_id = $product->get_image_id();
-				echo $post_thumbnail_id;
+				echo wp_get_attachment_image( $post_thumbnail_id, 'full' );
 			?>
+			<div class="single-product-hero-section-content">
+				<div class="container">
+					<?php the_title( '<h2 class="product_title entry-title">', '</h2>' ); ?>
+					<?php
+						global $post;
+
+						$short_description = apply_filters( 'woocommerce_short_description', $post->post_excerpt );
+						
+						if ( ! $short_description ) {
+							return;
+						}
+						
+						?>
+						<div class="woocommerce-product-details__short-description">
+							<?php echo $short_description; ?>
+						</div>
+					</div>
+			</div>
 		</section>
 		<?php wc_get_template_part( 'content', 'single-product' ); ?>
 	@endwhile

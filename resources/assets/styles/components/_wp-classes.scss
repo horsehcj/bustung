@@ -34,23 +34,3 @@
     margin-left: ($spacer / 2);
   }
 }
-
-/** Captions */
-.wp-caption {
-  @extend .figure;
-}
-
-.wp-caption img {
-  @extend .figure-img;
-  @extend .img-fluid;
-}
-
-.wp-caption-text {
-  @extend .figure-caption;
-}
-
-/** Text meant only for screen readers */
-.screen-reader-text {
-  @extend .sr-only;
-  @extend .sr-only-focusable;
-}
