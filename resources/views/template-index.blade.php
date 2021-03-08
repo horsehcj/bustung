@@ -83,33 +83,33 @@
     <section class="index-wills-section">
       <div class="container">
         <div class="row justify-content-center service">
-          <div class="col-sm-4 service-icon-container">
+          <div class="col-sm-5 col-md-4 service-icon-container">
             <img class="service-icon" src="@asset('images/service-icon-repair.png')">
           </div>
-          <div class="col-sm-5">
-            <h4>定期維修保養</h4>
+          <div class="col-sm-7 col-md-5">
+            <h3>定期維修保養</h3>
             <p>為保障客戶安全，減低意外風險，定期檢查是最基本的要求。巴士通旗下所有商用車輛均會接受登記前檢驗，以及最少每年為所有車輛進行定期檢查，並購買保險，以確保車輛安全並適合在路上行駛。</p>
           </div>
         </div>
 
         <div class="row justify-content-center service">
-          <div class="col-sm-4 service-icon-container">
+          <div class="col-sm-5 col-md-4 service-icon-container">
             <img class="service-icon" src="@asset('images/service-icon-cs.png')">
           </div>
 
-          <div class="col-sm-5">
-            <h4>24小時客戶服務熱線</h4>
+          <div class="col-sm-7 col-md-5">
+            <h3>24小時客戶服務熱線</h3>
             <p>閣下可透過電郵、傳真或電話聯繫我們。巴士通的客戶電話提供全天候24小時的諮詢熱線服務。無論您是想查詢我們的巴士服務，還是想了解更多報價資料，歡迎您隨時聯絡我們，我們將竭力為您提供即時、到位的解答。</p>
           </div>
         </div>
 
         <div class="row justify-content-center service">
-          <div class="col-sm-4 service-icon-container">
+          <div class="col-sm-5 col-md-4 service-icon-container">
             <img class="service-icon" src="@asset('images/service-icon-money.png')">
           </div>
 
-          <div class="col-sm-5">
-            <h4>零手續費和預訂費</h4>
+          <div class="col-sm-7 col-md-5">
+            <h3>零手續費和預訂費</h3>
             <p>巴士通向來以卓越服務在業界贏得良好信譽。為提供更方便貼心的顧客體驗，閣下在租車期間無需繳付任何手續費和預訂費，流程簡單。如需取消預約只需提前3日通知，本公司將不會收取任何行政費用。</p>
           </div>
         </div>
