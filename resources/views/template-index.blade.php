@@ -84,7 +84,7 @@
       <div class="container">
         <div class="row justify-content-center service">
           <div class="col-sm-4">
-            <img src="@asset('images/icon-service-repair.png')">
+            <img src="@asset('images/service-icon-repair.png')">
           </div>
           <div class="col-sm-4">
             <h4>定期維修保養</h4>
@@ -93,22 +93,19 @@
         </div>
 
         <div class="row justify-content-center service">
-          <div class="col-sm-5">
-            <img src="@asset('images/icon-service-cs.png')">
+          <div class="col-sm-4">
+            <img src="@asset('images/service-icon-cs.png')">
           </div>
 
           <div class="col-sm-5">
             <h4>24小時客戶服務熱線</h4>
             <p>閣下可透過電郵、傳真或電話聯繫我們。巴士通的客戶電話提供全天候24小時的諮詢熱線服務。無論您是想查詢我們的巴士服務，還是想了解更多報價資料，歡迎您隨時聯絡我們，我們將竭力為您提供即時、到位的解答。</p>
-
-            <h4>零手續費和預訂費</h4>
-            <p>巴士通向來以卓越服務在業界贏得良好信譽。為提供更方便貼心的顧客體驗，閣下在租車期間無需繳付任何手續費和預訂費，流程簡單。如需取消預約只需提前3日通知，本公司將不會收取任何行政費用。</p>
           </div>
         </div>
 
         <div class="row justify-content-center service">
           <div class="col-sm-4">
-            <img src="@asset('images/icon-service-money.png')">
+            <img src="@asset('images/service-icon-money.png')">
           </div>
 
           <div class="col-sm-5">
