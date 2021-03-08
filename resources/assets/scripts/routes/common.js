@@ -22,7 +22,7 @@ export default {
       if (!$(this).hasClass('.menu-item-language')) {
         let anchor = $.attr($(this).find('a'), 'href')
         $('html, body').animate({
-          scrollTop: $(anchor).offset().top
+          scrollTop: $(anchor).offset().top,
         }, 500);
       }
     })
