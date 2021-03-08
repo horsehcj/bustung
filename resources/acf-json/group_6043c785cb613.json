@@ -135,7 +135,8 @@
                         "id": ""
                     },
                     "post_type": [
-                        "page"
+                        "page",
+                        "product"
                     ],
                     "taxonomy": "",
                     "allow_null": 0,
@@ -178,5 +179,5 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1615056548
+    "modified": 1615175365
 }

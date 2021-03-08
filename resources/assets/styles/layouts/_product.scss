@@ -11,5 +11,24 @@
       height: 100%;
       background-color: rgba(0, 0, 0, 0.5);
     }
+
+    .single-product-hero-section-content {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      color: white;
+
+      h2 {
+        margin-bottom: 12px;
+        font-size: 44px;
+      }
+
+      .woocommerce-product-details__short-description {
+        font-size: 24px;
+        width: 60%;
+      }
+    }
   }
 }
