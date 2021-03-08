@@ -17,11 +17,18 @@
   }
 
   .nav {
+    display: flex;
+
     & > li {
       &.menu-item-language {
         & > a {
           display: none;
         }
+      }
+
+      & > a {
+        color: white;
+        margin-right: 12px;
       }
 
       ul {
