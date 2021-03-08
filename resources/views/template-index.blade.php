@@ -44,7 +44,7 @@
       </div>
     </section>
 
-    <section class="index-services-section">
+    <section id="services" class="index-services-section">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-10">
@@ -83,17 +83,17 @@
     <section class="index-wills-section">
       <div class="container">
         <div class="row justify-content-center service">
-          <div class="col-sm-4">
+          <div class="col-sm-4 service-icon">
             <img src="@asset('images/service-icon-repair.png')">
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-5">
             <h4>定期維修保養</h4>
             <p>為保障客戶安全，減低意外風險，定期檢查是最基本的要求。巴士通旗下所有商用車輛均會接受登記前檢驗，以及最少每年為所有車輛進行定期檢查，並購買保險，以確保車輛安全並適合在路上行駛。</p>
           </div>
         </div>
 
         <div class="row justify-content-center service">
-          <div class="col-sm-4">
+          <div class="col-sm-4 service-icon">
             <img src="@asset('images/service-icon-cs.png')">
           </div>
 
@@ -104,7 +104,7 @@
         </div>
 
         <div class="row justify-content-center service">
-          <div class="col-sm-4">
+          <div class="col-sm-4 service-icon">
             <img src="@asset('images/service-icon-money.png')">
           </div>
 
