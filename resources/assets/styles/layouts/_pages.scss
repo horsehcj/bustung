@@ -149,7 +149,7 @@
 
   .index-wills-section {
     .service {
-      margin-bottom: 40px;
+      margin-bottom: 60px;
 
       .service-icon-container {
         text-align: center;
@@ -163,6 +163,10 @@
       &:nth-of-type(2) {
         .service-icon-container {
           order: 2;
+
+          @include media-breakpoint-down(md) {
+            order: 0;
+          }
         }
       }
     }

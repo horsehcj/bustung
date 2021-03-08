@@ -18,8 +18,10 @@
 
   .nav {
     & > li {
-      & > a {
-        display: none;
+      &.menu-item-language {
+        & > a {
+          display: none;
+        }
       }
 
       ul {
