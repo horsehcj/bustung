@@ -34,22 +34,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="single-product-hero-section-content">
 				<div class="container">
 					<?php the_title( '<h2 class="product_title entry-title">', '</h2>' ); ?>
-					<?php
-						global $post;
-
-						$short_description = apply_filters( 'woocommerce_short_description', $post->post_excerpt );
-						
-						if ( ! $short_description ) {
-							return;
-						}
-						
-						?>
-						<div class="woocommerce-product-details__short-description">
-							<?php echo $short_description; ?>
-						</div>
-					</div>
+				</div>
 			</div>
 		</section>
-		<?php wc_get_template_part( 'content', 'single-product' ); ?>
+		<section class="single-product-main-content-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<?php echo $product->description; ?>
+					</div>
+					<div class="col-md-4">
+						@php
+							do_action('woocommerce_single_product_summary');
+						@endphp
+					</div>
+				</div>
+			</div>
+		</section>
 	@endwhile
 @endsection

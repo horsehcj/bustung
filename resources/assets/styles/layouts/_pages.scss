@@ -81,6 +81,15 @@
 
   .index-intro-section {
     margin-top: 80px;
+
+    .btn-primary {
+      margin: 0 10px 20px;
+
+      @include media-breakpoint-down(md) {
+        display: block;
+        margin: 0 auto 20px;
+      }
+    }
   }
 
   .index-services-section {
