@@ -7,6 +7,10 @@
     background-attachment: fixed;
     padding-top: 120px;
 
+    @include media-breakpoint-down(md) {
+      padding-top: 80px;
+    }
+
     &::before {
       content: "";
       position: absolute;

@@ -51,3 +51,10 @@ ul {
 .text-center {
   text-align: center;
 }
+
+.container {
+  @include media-breakpoint-down(md) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

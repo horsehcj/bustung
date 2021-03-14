@@ -14,7 +14,6 @@
               <h1>旅遊巴士、中港過境平治及豪華七人車租借</h1>
               <p>成立超過二十年，一直以來誠意為客戶提供旅遊巴服務，信譽良好，提供時租、日租、月租及包車服務</p>
               <p>電話：2330 2990</p>
-              <p>地址：九龍紅磡馬頭圍道37號紅磡商業中心B座5樓508室</p>
             </div>
           </div>
           <div class="index-hero-slide index-hero-slide-2">
@@ -95,7 +94,7 @@
     <section id="promises" class="index-wills-section">
       <div class="container">
         <div class="row justify-content-center service">
-          <div class="col-md-5 col-lg-4 service-icon-container">
+          <div class="col-md-5 col-lg-5 service-icon-container">
             <img class="service-icon" src="@asset('images/service-icon-repair.png')">
           </div>
           <div class="col-md-7 col-lg-5">
@@ -105,7 +104,7 @@
         </div>
 
         <div class="row justify-content-center service">
-          <div class="col-md-5 col-lg-4 service-icon-container">
+          <div class="col-md-5 col-lg-5 service-icon-container">
             <img class="service-icon" src="@asset('images/service-icon-cs.png')">
           </div>
 
@@ -116,7 +115,7 @@
         </div>
 
         <div class="row justify-content-center service">
-          <div class="col-md-5 col-lg-4 service-icon-container">
+          <div class="col-md-5 col-lg-5 service-icon-container">
             <img class="service-icon" src="@asset('images/service-icon-money.png')">
           </div>
 
