@@ -17,11 +17,23 @@
               <p>地址：九龍紅磡馬頭圍道37號紅磡商業中心B座5樓508室</p>
             </div>
           </div>
-          <div class="index-hero-slide index-hero-slide-2">123</div>
-          <div class="index-hero-slide index-hero-slide-3">123</div>
+          <div class="index-hero-slide index-hero-slide-2">
+            <div class="index-hero-slide-content">
+              <h2 class="h1">網上即時預訂，優質客戶服務</h2>
+              <p>為顧客提供即時預訂服務，只需一鍵按鈕，無需收取任何手續費，方便快捷</p>
+              <p>同時提供24小時電話諮詢熱線服務</p>
+            </div>
+          </div>
+          <div class="index-hero-slide index-hero-slide-3">
+            <div class="index-hero-slide-content">
+              <h2 class="h1">商務活動、觀光旅遊巴士租賃</h2>
+              <p>多元化的點對點租車服務，不論是工作還是旅遊，巴士通都能帶您前往所嚮往的地方</p>
+              <p>並致力為您提供可靠的的巴士服務解決方案</p>
+            </div>
+          </div>
         </div>
 
-        <div class="index-hero-image-slider-container d-none d-md-block">
+        <div class="index-hero-image-slider-container d-none d-lg-block">
           <div class="index-hero-image-slide index-hero-image-slide-1">
             <img src="@asset('images/hero_slide-1.jpg')">
           </div>

@@ -17,7 +17,7 @@ export default {
     });
 
     $('.menu-item').on('click', function(e) {
-      if (!$(this).hasClass('.menu-item-language')) {
+      if (!$(this).hasClass('menu-item-language')) {        
         e.preventDefault();
 
         let anchor = $(this).find('a').attr('href')

@@ -26,9 +26,20 @@
         }
       }
 
+      &.menu-item-type-custom {
+        @include media-breakpoint-down(md) {
+          display: none;
+        }
+      }
+
       & > a {
         color: white;
         margin-right: 32px;
+        transition: color 0.2s ease-in-out;
+
+        &:hover {
+          color: #6250d1;
+        }
       }
 
       ul {
