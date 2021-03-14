@@ -17,12 +17,12 @@ export default {
     });
 
     $('.menu-item').on('click', function(e) {
-      e.preventDefault();
-
       if (!$(this).hasClass('.menu-item-language')) {
-        let anchor = $.attr($(this).find('a'), 'href')
+        e.preventDefault();
+
+        let anchor = $(this).find('a').attr('href')
         $('html, body').animate({
-          scrollTop: $(anchor).offset().top,
+          scrollTop: $(anchor).offset().top - 100,
         }, 500);
       }
     })

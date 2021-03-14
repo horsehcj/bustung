@@ -5,7 +5,7 @@
         <img class="footer-logo" src="@asset('images/bustung_logo.png')">
       </div>
 
-      <div class="col-sm-6">
+      <div id="contact" class="col-sm-6">
         <p>電話：<a href="tel:2330 2990">2330 2990</a></p>
         <p>電話：<a href="https://api.whatsapp.com/send?phone=94984445">9498 4445</a> (Whatsapp)</p>
         <p>地址：九龍紅磡馬頭圍道37號紅磡商業中心B座5樓508室</p>
