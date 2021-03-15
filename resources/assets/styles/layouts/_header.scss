@@ -11,6 +11,10 @@
     width: 250px;
     transition: width 0.3s ease-in-out;
 
+    @include media-breakpoint-down(md) {
+      width: 200px;
+    }
+
     img {
       max-width: 100%;
     }
