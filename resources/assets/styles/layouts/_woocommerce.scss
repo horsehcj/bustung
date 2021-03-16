@@ -79,6 +79,10 @@
   }
 
   ul {
+    &.order_details {
+      padding-left: 0;
+    }
+
     &.products {
       li {
         &.product {
