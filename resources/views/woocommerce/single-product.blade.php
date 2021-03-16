@@ -27,10 +27,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	@while(have_posts()) @php the_post() @endphp
 		@php global $product @endphp
 		<section class="single-product-hero-section">
-			<?php
-				$post_thumbnail_id = $product->get_image_id();
-				echo wp_get_attachment_image( $post_thumbnail_id, 'full' );
-			?>
+			{!! the_post_thumbnail('full')  !!}
 			<div class="single-product-hero-section-content">
 				<div class="container">
 					<?php the_title( '<h2 class="product_title entry-title">', '</h2>' ); ?>
@@ -41,7 +38,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8">
-						<?php echo $product->description; ?>
+              {{ $product->get_description() }}
 					</div>
 					<div class="col-md-4">
 						@php
